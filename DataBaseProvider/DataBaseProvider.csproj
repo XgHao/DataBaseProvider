@@ -117,6 +117,12 @@
     <Folder Include="Views\API\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyDataBase\MyDataBase.csproj">
+      <Project>{95672eb0-7a9e-40cb-8da3-308cf1758933}</Project>
+      <Name>MyDataBase</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
