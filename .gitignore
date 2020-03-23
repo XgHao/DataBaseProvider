@@ -340,4 +340,4 @@ ASALocalRun/
 healthchecksdb
 
 #app.config & web.config ÅäÖÃÎÄ¼ş
-./MyDataBase/App.config
+MyDataBase/App.config
